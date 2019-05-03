@@ -1,0 +1,57 @@
+html{
+    font-family: tahoma
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+center{
+    background-color: rgba(230,230,230);
+    opacity: 0.5;
+    text-align: center;
+    position: relative;
+    font-size: 80px;
+    cursor: copy;
+    left:0px;
+    right:0px;
+    top;0px;
+    
+}
+#background{;
+    zoom: 2.1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left:0px;
+}
+#contacts{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(230,230,230);
+    opacity: 0.5;
+}
+a{
+    padding: 30px;
+    
+}
+#main_body{
+    background-color: rgba(230,230,230);
+    opacity: 0.5;;
+    position: relative;
+    width: 1250px;
+    margin:auto;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#paragraph{
+    font-size: 20px;
+    padding: 20px;
+}
+ul li{
+    font-size:20px;
+    line-height: 30px;
+}
+#title1{
+}
