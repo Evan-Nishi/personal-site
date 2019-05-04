@@ -37,7 +37,7 @@ a{
 }
 #main_body{
     background-color: rgba(230,230,230);
-    opacity: 0.5;;
+    opacity: 0.5;
     position: relative;
     width: 1250px;
     margin:auto;
@@ -53,5 +53,50 @@ ul li{
     font-size:20px;
     line-height: 30px;
 }
-#title1{
+#profilepic{
+    width: 300px;
+    border-radius: 75%;
+    position: relative;
+    margin-left: 40%;
+}
+.container {
+  width: 100%; 
+  background-color: white; 
+}
+.skills {
+    text-align: right;
+    padding: 10px; 
+    color: white; 
+}
+
+.python {
+    width: 90%;
+    background-color: gray;
+    padding: 10px;
+}
+.C{
+    background-color: gray;
+    width: 70%;
+    padding: 10px;
+}
+.javascript{
+    background-color: gray;
+    padding: 10px;
+    width: 80%;
+}
+.web{
+    background-color: gray;
+    padding: 10px;
+    width: 30%;
+}
+
+#skillbars{
+    margin: auto;
+    background-color: rgba(230,230,230);
+    opacity: 0.5;
+    width: 1210px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
