@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <!--Bootstrap coming soon!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <title>Evan Nishi</title> 
     <link rel="stylesheet" href="style.css">
@@ -14,7 +16,10 @@
     <meta name="author" content="Evan Nishi">
 </head>
 <body background = "background.jpg">
-    <center size = "400">Evan Nishi</center>
+    <div id = navbar>
+        <center size = "400">Evan Nishi</center>
+        <a  id = "about-button" href="#title">About</a>
+    </div>
     <br>
     <br>
     <img id = "profilepic" src="evan2.jpg">
@@ -26,7 +31,7 @@
     <p id = "paragraph">My name is Evan Nishi, and I'm a freshman at Las Lomas High School.  I have always been curious and loved challenges, this personality led me to love math, physics, electronics, and programming.  I have been building a bunch of project recently, and you can check them out on my github!  I am very active in the programming and local community.  I love organizing and attending events, and volunteer regularly.</p>
     <br>
     <font size= "100" id="title2">Organizations I'm Part of</font>
-    <ul style="list-style-type:disc;">
+    <ul class = "orgs">
         <li>CodeDay Bay Area, Organizer</li>
         <li>Hankoy, Organizer</li>
         <li>Monument Crisis, Math Tutor</li>
@@ -39,25 +44,42 @@
 <div class="container">
     <div class="skills python">90%</div>
 </div>
+    <h3>Libraries I use</h3>
+    <ul class = "pylibaries">
+        <li>Tensorflow</li>
+        <li>Numpy</li>
+        <li>Matplotlib</li>
+        <li>bs4</li>
+        <li >Speech Recognition</li>
+        <li>NLTK</li>
+    </ul>
 <h2>Javascript</h2>
 <div class="container">
-    <div class="skills javascript">80%</div>
+    <div class="skills javascript">75%</div>
 </div>
+    <h3>JS Libraries/Frameworks/Runtimes I work with</h3>
+    <ul class ="jsstuff">
+        <li>node.js</li>
+        <li>tensorflow.js</li>
+        <li>discord.js</li>
+        <li>ajax (mainly via ajax vulnerabilities)</li>
+        <li>jQuery (very little experience)</li>
+    </ul>
 <h2>C</h2>
 <div class="container">
-    <div class="skills C">70%</div>
+    <div class="skills C">60%</div>
 </div>
 <h2>HTML/CSS</h2>
 <div class="container">
     <div class="skills web">30%</div>
 </div>
-    
+<br>
 </div>       
-<div id = "contacts">
-    <a draggable="false" style = "font-size:64px;" href = "mailto:evankn.13@gmail.com"><i class="fas fa-envelope" style="color: black;"></i></a>
-    <a draggable="false" style = "font-size:64px;" href = "https://twitter.com/NishiEvan" target="_blank"><i class="fa fa-twitter-square" style="color: black;"></i></a>
-    <a draggable="false" style = "font-size:64px;" href = "https://github.com/pErs0nZ" target="_blank"><i class="fa fa-github-square" style="color: black;"></i></a>
-    <a draggable="false" style = "font-size:64px;" href = "https://www.linkedin.com/in/evan-nishi-804a85183/" target="_blank"><i class="fa fa-linkedin-square" style="color: black;"></i></a>
+<div class = "contacts">
+    <a draggable="false" href = "mailto:evankn.13@gmail.com"><i class="fas fa-envelope" style="color: black;"></i></a>
+    <a draggable="false" href = "https://twitter.com/NishiEvan" target="_blank"><i class="fa fa-twitter-square" style="color: black;"></i></a>
+    <a draggable="false" href = "https://github.com/pErs0nZ" target="_blank"><i class="fa fa-github-square" style="color: black;"></i></a>
+    <a draggable="false" href = "https://www.linkedin.com/in/evan-nishi-804a85183/" target="_blank"><i class="fa fa-linkedin-square" style="color: black;"></i></a>
 </div>
 </body>
 </html>

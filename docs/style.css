@@ -1,6 +1,17 @@
 html{
     font-family: tahoma
 }
+#navbar{
+    background-color: rgba(230,230,230);
+    opacity: 0.5;
+    margin: auto;
+    align-content: center;
+}
+#about-button{
+    text-decoration:none;
+    color: gray;
+    font-size: 40px;
+}
 body{
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -25,8 +36,9 @@ center{
     right: 0px;
     left:0px;
 }
-#contacts{
-    width: 500px;
+.contacts{
+    font-size: 64px;
+    width: 750px;
     margin: auto;
     background-color: rgba(230,230,230);
     opacity: 0.5;
@@ -41,17 +53,18 @@ a{
     position: relative;
     width: 1250px;
     margin:auto;
-    line-height: 30px;
+    line-height: 55px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 #paragraph{
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
 }
-ul li{
-    font-size:20px;
-    line-height: 30px;
+.orgs{
+    list-style-type:disc;
+    font-size:40px;
+    line-height: 60px;
 }
 #profilepic{
     width: 300px;
@@ -76,13 +89,13 @@ ul li{
 }
 .C{
     background-color: gray;
-    width: 70%;
+    width: 60%;
     padding: 10px;
 }
 .javascript{
     background-color: gray;
     padding: 10px;
-    width: 80%;
+    width: 75%;
 }
 .web{
     background-color: gray;
@@ -99,4 +112,18 @@ ul li{
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.pylibraries{
+    font-size: 20px;
+    list-style: disc;
+}
+
+h3{
+    font-size: 15px;
+}
+
+.jsstuff{
+    font-size: 20px;
+    list-style: disc;
 }
