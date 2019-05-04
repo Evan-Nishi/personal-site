@@ -1,5 +1,5 @@
 html{
-    font-family: tahoma
+    font-family: tahoma;
 }
 #navbar{
     padding-left:6px; 
@@ -140,17 +140,17 @@ center{
 }
 
 
-.pylibraries{
-    font-size: 25px;
-    list-style: disc;
-}
 
 h3{
     font-size: 20px;
 }
 
 .jsstuff{
-    font-size: 20px;
+    font-size: 25px;
+    list-style: disc;
+}
+.pylibaries{
+    font-size: 25px;
     list-style: disc;
 }
 a{
