@@ -2,15 +2,22 @@ html{
     font-family: tahoma
 }
 #navbar{
+    padding-left:6px; 
+    padding-right:2px;
+    width: 100%;
     background-color: rgba(230,230,230);
     opacity: 0.5;
-    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
     align-content: center;
 }
 .navbutton{
+    background-color: white;
     text-decoration:none;
     color: gray;
-    font-size: 50px;
+    font-size: 30px;
+    padding-top: 20px;
     background: rgba(270,270,270);
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -58,6 +65,7 @@ center{
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    border-radius: 25px;
 }
 #paragraph{
     font-size: 30px;
@@ -74,6 +82,7 @@ center{
     padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
+    border-radius: 25px;
 }
 
 .orgs{
@@ -106,6 +115,7 @@ center{
     padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
+    border-radius: 25px;
 }
 
 .python {
