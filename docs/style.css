@@ -47,6 +47,7 @@ center{
     left:0px;
 }
 .contacts{
+    border-radius: 25px;
     font-size: 64px;
     width: 700px;
     margin: auto;
