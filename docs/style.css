@@ -11,6 +11,10 @@ html{
     margin-right: 0px;
     margin-top: 0px;
     align-content: center;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 .navbutton{
     background-color: white;
@@ -21,6 +25,21 @@ html{
     background: rgba(270,270,270);
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+}
+#profilepic{
+    width: 300px;
+    border-radius: 75%;
+    position: relative;
+    margin-left: 40%;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+#profilepic:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
 }
 body{
     background-attachment: fixed;
@@ -45,14 +64,6 @@ center{
     bottom: 0px;
     right: 0px;
     left:0px;
-}
-.contacts{
-    border-radius: 25px;
-    font-size: 64px;
-    width: 700px;
-    margin: auto;
-    background-color: rgba(230,230,230);
-    opacity: 0.5;
 }
 
 #main_body{
@@ -93,15 +104,14 @@ center{
     padding-bottom: 20px;
     padding-top: 20;
 }
-#profilepic{
-    width: 300px;
-    border-radius: 75%;
-    position: relative;
-    margin-left: 40%;
-}
+
 .container {
-  width: 100%; 
-  background-color: white; 
+    width: 100%; 
+    background-color: white; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 .skills {
     text-align: right;
@@ -159,7 +169,16 @@ a{
     padding-right:50px;
     transition: all 0.5s ease-in-out;
 }
-#profilepic:hover{
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5);
+
+.contacts{
+    border-radius: 25px;
+    font-size: 64px;
+    width: 700px;
+    margin: auto;
+    background-color: rgba(230,230,230);
+    opacity: 0.5;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
