@@ -3,13 +3,10 @@ html{
     scroll-behavior: smooth;
 }
 #navbar{
-    padding-left:6px; 
-    padding-right:2px;
-    width: 100%;
+    width: 1510px;
     background-color: rgba(230,230,230);
     opacity: 0.5;
     margin-left: 0px;
-    margin-right: 0px;
     margin-top: 0px;
     align-content: center;
     -webkit-user-select: none; 
