@@ -1,5 +1,6 @@
 html{
     font-family: tahoma;
+    scroll-behavior: smooth;
 }
 #navbar{
     padding-left:6px; 
