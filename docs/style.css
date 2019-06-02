@@ -1,9 +1,14 @@
 html{
     font-family: tahoma;
     scroll-behavior: smooth;
+    margin:0px;
+}
+a{
+    margin-left: 2px;
 }
 #navbar{
     background-color: rgba(230,230,230);
+    width: 100;
     padding-left: 5px;
     opacity: 0.5;
     align-content: center;
@@ -42,7 +47,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
+    margin:0px;
 }
 center{
     background-color: rgba(230,230,230);
