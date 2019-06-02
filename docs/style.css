@@ -3,16 +3,14 @@ html{
     scroll-behavior: smooth;
 }
 #navbar{
-    width: 1510px;
     background-color: rgba(230,230,230);
     opacity: 0.5;
-    margin-left: 0px;
-    margin-top: 0px;
     align-content: center;
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
+    overflow: hidden;
 }
 .navbutton{
     background-color: white;
@@ -188,4 +186,11 @@ a{
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
+}
+i{
+    color: black;
+}
+i:hover{
+    color: gray;
+    transform: scale(1.5);
 }
