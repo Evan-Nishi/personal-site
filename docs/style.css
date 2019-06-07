@@ -10,6 +10,7 @@ a{
     background-color: rgba(230,230,230);
     width: 100;
     padding-left: 5px;
+    padding-top: 10px;
     opacity: 0.5;
     align-content: center;
     -webkit-user-select: none; 
