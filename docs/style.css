@@ -12,6 +12,7 @@ a{
     padding-left: 5px;
     padding-top: 10px;
     opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     align-content: center;
     -webkit-user-select: none; 
     -moz-user-select: none; 
@@ -53,6 +54,7 @@ body{
 center{
     background-color: rgba(230,230,230);
     opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     text-align: center;
     position: relative;
     font-size: 80px;
@@ -92,6 +94,7 @@ center{
 #organizations{
     background-color: rgba(230,230,230);
     opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     position: relative;
     width: 1150px;
     margin:auto;
@@ -190,6 +193,7 @@ a{
     margin: auto;
     background-color: rgba(230,230,230);
     opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
