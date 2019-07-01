@@ -3,6 +3,9 @@ html{
     scroll-behavior: smooth;
     margin:0px;
 }
+div{
+    vertical-align: middle;
+}
 a{
     margin-left: 2px;
 }
@@ -76,7 +79,7 @@ center{
     background-color: rgba(230,230,230);
     opacity: 0.5;
     position: relative;
-    width: 1150px;
+    width: 85%;
     margin:auto;
     line-height: 55px;
     padding-top: 40px;
@@ -87,7 +90,7 @@ center{
 }
 #paragraph{
     font-size: 30px;
-    width: 1150;
+    width: 85%;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -96,7 +99,7 @@ center{
     opacity: 0.5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     position: relative;
-    width: 1150px;
+    width: 85%;
     margin:auto;
     padding-top: 40px;
     padding-left: 50px;
@@ -128,7 +131,7 @@ center{
     margin: auto;
     background-color: rgba(230,230,230);
     opacity: 0.5;
-    width: 1150px;
+    width: 85%;
     padding-bottom: 50px;
     padding-top: 40px;
     padding-left: 50px;
@@ -189,7 +192,7 @@ a{
 .contacts{
     border-radius: 25px;
     font-size: 64px;
-    width: 700px;
+    width: 46%;
     margin: auto;
     background-color: rgba(230,230,230);
     opacity: 0.5;
@@ -208,7 +211,7 @@ i:hover{
 }
 
 @media only screen and (max-width:620px;){
-    .navbar, .contacts{
+    .navbar{
         width:100%;
     }
     .body{
