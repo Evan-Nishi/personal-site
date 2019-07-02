@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <!--Bootstrap coming soon!-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>Evan Nishi</title> 
@@ -17,7 +16,7 @@
 </head>
 <body background = "background.jpg">
     <div id = navbar>
-        <center size = "400">Evan Nishi</center>
+        <center id='navtitle' size = "400">Evan Nishi</center>
         <a class = "navbutton" href="#title1">About</a>
         <a class = "navbutton" href="#skillbars">Skills</a>
         <a class = "navbutton" href="#anchorpoint">Contact</a>
@@ -28,7 +27,9 @@
     <br>
     <br>
     <br>
-    <img id = "profilepic" src="evan2.jpg">
+    <div id="piccontainer">
+        <img align="middle" id = "profilepic" src="evan2.jpg">
+    </div>
     <br>
     <br>
     <br>
@@ -122,5 +123,12 @@
 <br>
 <br>
 <br>
+<script>
+        <!--Bacground opacity does not work with edge, small workaround that affects style!-->
+        if (navigator.userAgent.search("MSIE") & gt; = 0) {
+            document.getElementById('navbar','navtitle','organizations','skillbars').style.background = rbga(230,230,230,0.5)
+        }
+    
+</script>
 </body>
 </html>

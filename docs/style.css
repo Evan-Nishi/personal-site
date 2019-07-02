@@ -3,6 +3,20 @@ html{
     scroll-behavior: smooth;
     margin:0px;
 }
+
+@media only screen and (max-width:620px;){
+    .navbar{
+        width:100%;
+    }
+    .body{
+        width: 100%;
+    }
+    a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 div{
     vertical-align: middle;
 }
@@ -15,7 +29,6 @@ a{
     padding-left: 5px;
     padding-top: 10px;
     opacity: 0.5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     align-content: center;
     -webkit-user-select: none; 
     -moz-user-select: none; 
@@ -34,14 +47,17 @@ a{
     border-top-left-radius: 25px;
 }
 #profilepic{
-    width: 300px;
+    width: 20%;
     border-radius: 75%;
     position: relative;
-    margin-left: 40%;
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
+}
+#piccontainer{
+    vertical-align: middle;
+    text-align: center;
 }
 #profilepic:hover{
     -ms-transform: scale(1.5); 
@@ -57,15 +73,13 @@ body{
 center{
     background-color: rgba(230,230,230);
     opacity: 0.5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     text-align: center;
     position: relative;
     font-size: 80px;
     cursor: copy;
     left:0px;
     right:0px;
-    top;0px;
-    
+    top;0px;   
 }
 #background{;
     zoom: 2.1;
@@ -97,7 +111,6 @@ center{
 #organizations{
     background-color: rgba(230,230,230);
     opacity: 0.5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     position: relative;
     width: 85%;
     margin:auto;
@@ -196,7 +209,6 @@ a{
     margin: auto;
     background-color: rgba(230,230,230);
     opacity: 0.5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
@@ -210,11 +222,3 @@ i:hover{
     transform: scale(1.5);
 }
 
-@media only screen and (max-width:620px;){
-    .navbar{
-        width:100%;
-    }
-    .body{
-        width: 100%;
-    }
-}
