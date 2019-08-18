@@ -133,6 +133,7 @@ center{
 .skills {
     text-align: right;
     color: rgba(255,255,255); 
+<<<<<<< HEAD
     background:rgba(192,192,192);
     padding: 10px;
 }
@@ -140,8 +141,19 @@ center{
     width: 90%;
 }
 #C{
+=======
+}
+.python {
+    width: 90%;
+    background:rgba(192,192,192);
+    padding: 10px;
+}
+.C{
+    background:rgba(192,192,192);
+>>>>>>> master
     width: 60%;
 }
+<<<<<<< HEAD
 #javascript{
     width: 75%;
 }
@@ -153,6 +165,26 @@ center{
 }
 #octave{
 
+=======
+.javascript{
+    background:rgba(192,192,192);
+    padding: 10px;
+    width: 75%;
+}
+.web{
+    background:rgba(192,192,192);
+    padding: 10px;
+    width: 40%;
+}
+.ruby{
+    background:rgba(192,192,192);
+    padding: 10px;
+    width: 30%;
+}
+.octave{
+    background:rgba(192,192,192);
+    padding: 10px;
+>>>>>>> master
     width: 20%;
 }
 
@@ -206,6 +238,7 @@ i:hover{
 
 br{
     line-height: 300%;
+<<<<<<< HEAD
 }
 
 .fa-envelope:hover{
@@ -220,4 +253,6 @@ br{
 }
 .fa-linkedin-square:hover{
     color: rgba(0,119,181, 1) !important;
+=======
+>>>>>>> master
 }
