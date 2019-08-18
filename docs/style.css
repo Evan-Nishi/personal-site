@@ -35,16 +35,23 @@ a{
     margin-left: 2px;
 }
 #navbar{
-    background-color: rgba(230,230,230);
+    background-color: rgba(230,230,230,0.5);
     width: 100%;
     padding-top: 10px;
-    opacity: 0.5;
     align-content: center;
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
     overflow: hidden;
+}
+
+center{
+    font-size: 80px;
+    cursor: copy;
+    left:0px;
+    right:0px;
+    top;0px;   
 }
 .navbutton{
     margin-left: 3px;
@@ -76,6 +83,7 @@ a{
     transform: scale(1.5);
 }
 body{
+    background-image: url(newbgfinished.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,22 +136,22 @@ center{
     background:rgba(192,192,192);
     padding: 10px;
 }
-.python {
+#python {
     width: 90%;
 }
-.C{
+#C{
     width: 60%;
 }
-.javascript{
+#javascript{
     width: 75%;
 }
-.web{
+#web{
     width: 40%;
 }
-.ruby{
+#ruby{
     width: 30%;
 }
-.octave{
+#octave{
 
     width: 20%;
 }
@@ -177,21 +185,39 @@ a{
     font-size: 64px;
     width: 46%;
     margin: auto;
-    background-color: rgba(230,230,230);
-    opacity: 0.5;
+    background-color: rgba(230,230,230,0.5);
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none;
 }
+.fa{
+    color: rgba(128,128,128) !important;
+}
+.fas{
+    color: rgba(128,128,128) !important;
+}
 i{
     color: black;
 }
 i:hover{
-    color: gray;
     transform: scale(1.5);
 }
 
 br{
     line-height: 300%;
+}
+
+.fa-envelope:hover{
+    color: rgba(160, 33, 25, 1) !important;
+}
+.fa-twitter-square:hover{
+    color: rgba(0, 172, 238, 1) !important;
+}
+
+.fa-github-square:hover{
+    color: black !important;
+}
+.fa-linkedin-square:hover{
+    color: rgba(0,119,181, 1) !important;
 }
