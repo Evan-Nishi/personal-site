@@ -4,6 +4,7 @@ html{
     margin:0px;
     color:rgba(128,128,128);
 }
+
 .container{
     background-color: rgba(230,230,230, 0.5);
     text-align: center;
@@ -15,18 +16,6 @@ html{
     border-radius: 25px;
     width: 75%;
 }
-@media only screen and (max-width:620px;){
-    .navbar{
-        width:100%;
-    }
-    .body{
-        width: 100%;
-    }
-    a{
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
 
 div{
     vertical-align: middle;
@@ -34,6 +23,7 @@ div{
 a{
     margin-left: 2px;
 }
+
 #navbar{
     background-color: rgba(230,230,230,0.5);
     width: 100%;
@@ -46,6 +36,8 @@ a{
     overflow: hidden;
 }
 
+
+
 center{
     font-size: 80px;
     cursor: copy;
@@ -53,6 +45,7 @@ center{
     right:0px;
     top;0px;   
 }
+
 .navbutton{
     margin-left: 3px;
     background-color: white;
@@ -64,6 +57,7 @@ center{
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
+
 #profilepic{
     width: 20%;
     border-radius: 75%;
@@ -73,22 +67,27 @@ center{
     -ms-user-select: none; 
     user-select: none;
 }
+
 #piccontainer{
     vertical-align: middle;
     text-align: center;
 }
+
 #profilepic:hover{
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
     transform: scale(1.5);
 }
+
 body{
+
     background-image: url(newbgfinished.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     margin:0px;
 }
+
 center{
     font-size: 80px;
     cursor: copy;
@@ -107,9 +106,9 @@ center{
 #main_body{
     line-height: 55px;
 }
+
 #paragraph{
     font-size: 30px;
-    width: 75%;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -122,6 +121,13 @@ center{
     padding-top: 20;
     text-align:left;
 }
+.orglink{
+    color: rgba(100,100,100);
+    display: inline-block; 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 .skillscontainer {
     width: 100%; 
     background: rgba(255,255,255);
@@ -133,7 +139,6 @@ center{
 .skills {
     text-align: right;
     color: rgba(255,255,255); 
-<<<<<<< HEAD
     background:rgba(192,192,192);
     padding: 10px;
 }
@@ -141,19 +146,8 @@ center{
     width: 90%;
 }
 #C{
-=======
-}
-.python {
-    width: 90%;
-    background:rgba(192,192,192);
-    padding: 10px;
-}
-.C{
-    background:rgba(192,192,192);
->>>>>>> master
     width: 60%;
 }
-<<<<<<< HEAD
 #javascript{
     width: 75%;
 }
@@ -164,33 +158,13 @@ center{
     width: 30%;
 }
 #octave{
-
-=======
-.javascript{
-    background:rgba(192,192,192);
-    padding: 10px;
-    width: 75%;
-}
-.web{
-    background:rgba(192,192,192);
-    padding: 10px;
-    width: 40%;
-}
-.ruby{
-    background:rgba(192,192,192);
-    padding: 10px;
-    width: 30%;
-}
-.octave{
-    background:rgba(192,192,192);
-    padding: 10px;
->>>>>>> master
     width: 20%;
 }
 
 h2{
     text-align: left;
 }
+
 h3{
     font-size: 20px;
     text-align: left;
@@ -201,21 +175,23 @@ h3{
     list-style: disc;
     text-align: left;
 }
+
 .libraries{
     font-size: 25px;
     list-style: disc;
     text-align: left;
 }
+
 a{
-    padding-left:50px; 
-    padding-right:50px;
+    padding-left:25px; 
+    padding-right:25px;
     transition: all 0.5s ease-in-out;
 }
-
 .contacts{
+    text-align: center;
     border-radius: 25px;
     font-size: 64px;
-    width: 46%;
+    width: 36%;
     margin: auto;
     background-color: rgba(230,230,230,0.5);
     -webkit-user-select: none; 
@@ -229,16 +205,15 @@ a{
 .fas{
     color: rgba(128,128,128) !important;
 }
+
 i{
     color: black;
 }
 i:hover{
     transform: scale(1.5);
 }
-
 br{
     line-height: 300%;
-<<<<<<< HEAD
 }
 
 .fa-envelope:hover{
@@ -247,12 +222,9 @@ br{
 .fa-twitter-square:hover{
     color: rgba(0, 172, 238, 1) !important;
 }
-
 .fa-github-square:hover{
     color: black !important;
 }
 .fa-linkedin-square:hover{
     color: rgba(0,119,181, 1) !important;
-=======
->>>>>>> master
 }
